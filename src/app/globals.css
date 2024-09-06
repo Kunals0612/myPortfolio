@@ -31,7 +31,7 @@ body {
     text-wrap: balance;
   }
 }
-@media (max-width: 394px){
+@media (max-width: 786px){
    .body{
      overflow: hidden;
    }
@@ -44,12 +44,15 @@ body {
      font-size: 12px;
      position: relative;
      left: 0%;
-     background-color: blueviolet
+     /* background-color: blueviolet */
    }
    .btns{
     position: relative;
-    left: 17vw;
+    left: auto;
     top: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
    }
    .btn{
      height: 40px;

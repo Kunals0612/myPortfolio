@@ -31,3 +31,34 @@ body {
     text-wrap: balance;
   }
 }
+@media (max-width: 394px){
+   .body{
+     overflow: hidden;
+   }
+   .menu{
+      position: absolute;
+      bottom: 20%;
+      right: 3%;
+   }
+   .txt{
+     font-size: 12px;
+     position: relative;
+     left: 0%;
+     background-color: blueviolet
+   }
+   .btns{
+    position: relative;
+    left: 17vw;
+    top: 5vw;
+   }
+   .btn{
+     height: 40px;
+     width: 120px;
+   }
+   .scrn{
+     
+   }
+   .screensize{
+      height: px;
+   }
+}
